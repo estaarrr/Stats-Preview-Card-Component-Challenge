@@ -4,10 +4,11 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
+
 }
 
 .card {
-    margin-top: 19rem;
     background-color: hsl(244, 38%, 16%);
     width: 62.5rem;
     height: 27.9rem;
@@ -71,12 +72,23 @@ h2 {
     line-height: 1.5rem;
 }
 
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    margin-top: 0;
+}
+
 #companies-stats {
     grid-area: companies-stats;
+    margin-right: 4rem;
 }
 
 #templates-stats {
     grid-area: templates-stats;
+    margin-right: 4rem;
+
 }
 
 #queries-stats {
@@ -90,8 +102,10 @@ h2 {
 
 .stats p {
     color: hsla(0, 0%, 100%, 0.6);
-    font-size: 1rem;
+    font-size: 0.8rem;
     margin-top: 0.5rem;
+    text-transform: uppercase;
+
 }
 
 .attribution {
