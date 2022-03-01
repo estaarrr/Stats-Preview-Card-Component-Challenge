@@ -161,4 +161,13 @@ ul {
         font-size: 0.8rem;
     }
 
+    ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #companies-stats,
+    #templates-stats {
+        margin-right: 0;
+    }
 }
